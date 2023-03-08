@@ -37,6 +37,21 @@
             border: 2px solid black;
             text-align: center;
         }
+
+        .midias{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .midias ul li img{
+            border-radius: 50%;
+            width: 100px;
+            margin-right: 20px;
+        }
+
+       
         
     </style>
 </head>
@@ -80,9 +95,30 @@
         <tr>
             <td>Refrigerante 1L </td>
             <td>10,00</td>
-
-        </tr>    
+        </tr>
     </table>
+
+    <div class="midias">
+        <ul>
+            <li>
+                <img class="imagem01_midia" src="img/Istock__Imgorthand_Musica_Meio_Ambiente.jpg">
+                <audio controls autoplay>
+                    <source src="midias/yt5s.io - 30 Minute Ambient Sleep Relax Music (128 kbps).mp3">
+                </audio>  
+            </li>
+
+            <li>
+                <img src="img/images.jpg">
+                <audio controls autoplay>
+                    <source src="midias/yt5s.io - 30 Minute Ambient Sleep Relax Music (128 kbps).mp3">
+                </audio>
+            </li>
+        </ul>
+
+        <video width="320" height="240" controls>
+            <source src="midias/X2Download.app-3 Minute Timer Relaxing Music Lofi Fish Background(720p).mp4" type="video/mp4">
+        </video>
+    </div>
 </body>
 </html>
 
